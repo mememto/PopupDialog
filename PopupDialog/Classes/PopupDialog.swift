@@ -44,7 +44,7 @@ final public class PopupDialog: UIViewController {
     fileprivate lazy var interactor = InteractiveTransition()
 
     /// Returns the controllers view
-    var popupContainerView: PopupDialogContainerView {
+    public var popupContainerView: PopupDialogContainerView {
         return view as! PopupDialogContainerView
     }
 
